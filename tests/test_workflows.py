@@ -1,3 +1,4 @@
+from sec_redteam.workflows.cli import build_parser
 from sec_redteam.workflows.planner import build_workflow_plan
 
 
@@ -19,3 +20,8 @@ def test_purple_workflow_has_hardening_sprint() -> None:
     plan = build_workflow_plan("purple", scenario="lateral movement", scope="lab")
     phase_names = [phase.name for phase in plan.phases]
     assert "Hardening Sprint" in phase_names
+
+
+def test_scope_help_describes_output_label_only() -> None:
+    help_text = " ".join(build_parser().format_help().split())
+    assert "Plan output label only; not an execution boundary." in help_text

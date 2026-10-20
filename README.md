@@ -68,6 +68,7 @@ Run from the repository root: preset query files and default `data/` paths are r
 
 - [CLI guide](library/knowledge/public/usage/cli-guide.md): all flags, eight presets, configuration, output formats, and source-cited limitations.
 - [Library index](library/README.md): documentation navigation.
+- [Shared vocabulary](CONTEXT.md): canonical domain terms and distinctions.
 
 `--allow-domain` replaces defaults and matches registrable domains, not exact hosts. SQLite and JSONL writes are not atomic together; rerunning does not repair missing exports. Read the guide before collecting a large corpus.
 

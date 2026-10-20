@@ -14,7 +14,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Generate red/blue/purple workflow plans")
     parser.add_argument("--type", choices=["red", "blue", "purple"], default="red")
     parser.add_argument("--scenario", required=True, help="Scenario name, e.g. phishing to credential abuse")
-    parser.add_argument("--scope", default="lab", help="Execution scope, e.g. lab, staging")
+    parser.add_argument("--scope", default="lab", help="Plan output label only; not an execution boundary.")
     parser.add_argument("--db", type=Path, default=Path("data/cyber_corpus.db"), help="Corpus SQLite DB")
     parser.add_argument("--evidence-limit", type=int, default=10, help="Max supporting sources")
     return parser
