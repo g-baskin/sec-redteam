@@ -1,0 +1,6 @@
+# Repository owner verified through the GitHub repository API.
+# Review enforcement requires a separately configured branch rule/ruleset.
+* @g-baskin
+/.github/ @g-baskin
+/.github/CODEOWNERS @g-baskin
+/.github/workflows/ @g-baskin

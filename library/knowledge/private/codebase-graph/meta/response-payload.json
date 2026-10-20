@@ -1,0 +1,714 @@
+{
+  "artifacts_created": [
+    "library/knowledge/private/codebase-graph/graph.json",
+    "library/knowledge/private/codebase-graph/meta/source-receipt.json",
+    "library/knowledge/private/codebase-graph/meta/response-payload.json"
+  ],
+  "contradictions_flagged": [],
+  "counts": {
+    "concept_pages": 3,
+    "detected_entities_including_stubs": 65,
+    "extracted_entity_pages": 49,
+    "graph_edges": 87,
+    "graph_nodes": 58,
+    "json_stub_files": 7,
+    "navigation_and_receipt_pages": 2,
+    "python_files": 14,
+    "stub_pages": 7
+  },
+  "decisions_filed": [],
+  "entities_detected": [
+    {
+      "file": "src/sec_redteam/__init__.py",
+      "line": 1,
+      "name": "__all__",
+      "type": "exported-symbol"
+    },
+    {
+      "file": "src/sec_redteam/__init__.py",
+      "line": 1,
+      "name": "__init__.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/__init__.py",
+      "line": 3,
+      "name": "__version__",
+      "type": "exported-symbol"
+    },
+    {
+      "file": "src/sec_redteam/ingest/__init__.py",
+      "line": 1,
+      "name": "ingest/__init__.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/__init__.py",
+      "line": 3,
+      "name": "__all__",
+      "type": "exported-symbol"
+    },
+    {
+      "file": "src/sec_redteam/ingest/aggressive_breadth_queries.json",
+      "line": 1,
+      "name": "aggressive_breadth_queries",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/badass_today_queries.json",
+      "line": 1,
+      "name": "badass_today_queries",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/cli.py",
+      "line": 1,
+      "name": "ingest/cli.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/cli.py",
+      "line": 12,
+      "name": "DEFAULT_ALLOWED_DOMAINS",
+      "type": "exported-symbol"
+    },
+    {
+      "file": "src/sec_redteam/ingest/cli.py",
+      "line": 27,
+      "name": "build_parser",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/cli.py",
+      "line": 64,
+      "name": "main",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/compliance_deep_queries.json",
+      "line": 1,
+      "name": "compliance_deep_queries",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/compliance_surge_queries.json",
+      "line": 1,
+      "name": "compliance_surge_queries",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/default_queries.json",
+      "line": 1,
+      "name": "default_queries",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/exa_client.py",
+      "line": 1,
+      "name": "ingest/exa_client.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/exa_client.py",
+      "line": 12,
+      "name": "SearchResultItem",
+      "type": "data-model"
+    },
+    {
+      "file": "src/sec_redteam/ingest/exa_client.py",
+      "line": 19,
+      "name": "SearchClient",
+      "type": "class"
+    },
+    {
+      "file": "src/sec_redteam/ingest/exa_client.py",
+      "line": 20,
+      "name": "SearchClient.search_and_contents",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/exa_client.py",
+      "line": 24,
+      "name": "ExaSearchClient",
+      "type": "class"
+    },
+    {
+      "file": "src/sec_redteam/ingest/exa_client.py",
+      "line": 25,
+      "name": "ExaSearchClient.__init__",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/exa_client.py",
+      "line": 32,
+      "name": "ExaSearchClient.search_and_contents",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/offsec_research_queries.json",
+      "line": 1,
+      "name": "offsec_research_queries",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/pipeline.py",
+      "line": 1,
+      "name": "ingest/pipeline.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/pipeline.py",
+      "line": 18,
+      "name": "logger",
+      "type": "exported-symbol"
+    },
+    {
+      "file": "src/sec_redteam/ingest/pipeline.py",
+      "line": 22,
+      "name": "ChunkedDocument",
+      "type": "data-model"
+    },
+    {
+      "file": "src/sec_redteam/ingest/pipeline.py",
+      "line": 35,
+      "name": "HTML_MARKER_PATTERN",
+      "type": "exported-symbol"
+    },
+    {
+      "file": "src/sec_redteam/ingest/pipeline.py",
+      "line": 38,
+      "name": "_looks_like_html",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/pipeline.py",
+      "line": 44,
+      "name": "_extract_best_text",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/pipeline.py",
+      "line": 54,
+      "name": "_load_queries",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/pipeline.py",
+      "line": 64,
+      "name": "_domain_allowed",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/pipeline.py",
+      "line": 70,
+      "name": "run_ingestion",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/playbook_surge_queries.json",
+      "line": 1,
+      "name": "playbook_surge_queries",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/presets.py",
+      "line": 1,
+      "name": "ingest/presets.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/presets.py",
+      "line": 8,
+      "name": "IngestPreset",
+      "type": "data-model"
+    },
+    {
+      "file": "src/sec_redteam/ingest/presets.py",
+      "line": 15,
+      "name": "PRESETS",
+      "type": "exported-symbol"
+    },
+    {
+      "file": "src/sec_redteam/ingest/storage.py",
+      "line": 1,
+      "name": "ingest/storage.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/storage.py",
+      "line": 9,
+      "name": "DocumentRecord",
+      "type": "data-model"
+    },
+    {
+      "file": "src/sec_redteam/ingest/storage.py",
+      "line": 23,
+      "name": "init_db",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/storage.py",
+      "line": 49,
+      "name": "insert_doc",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/types.py",
+      "line": 1,
+      "name": "ingest/types.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/types.py",
+      "line": 8,
+      "name": "IngestionSettings",
+      "type": "data-model"
+    },
+    {
+      "file": "src/sec_redteam/ingest/utils.py",
+      "line": 1,
+      "name": "ingest/utils.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/ingest/utils.py",
+      "line": 10,
+      "name": "domain_of",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/utils.py",
+      "line": 16,
+      "name": "normalize_text",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/utils.py",
+      "line": 21,
+      "name": "sha256_text",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/utils.py",
+      "line": 25,
+      "name": "chunk_text",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/ingest/utils.py",
+      "line": 44,
+      "name": "sort_deterministic",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/workflows/__init__.py",
+      "line": 1,
+      "name": "workflows/__init__.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/workflows/__init__.py",
+      "line": 4,
+      "name": "__all__",
+      "type": "exported-symbol"
+    },
+    {
+      "file": "src/sec_redteam/workflows/cli.py",
+      "line": 1,
+      "name": "workflows/cli.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/workflows/cli.py",
+      "line": 13,
+      "name": "build_parser",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/workflows/cli.py",
+      "line": 23,
+      "name": "main",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/workflows/evidence.py",
+      "line": 1,
+      "name": "workflows/evidence.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/workflows/evidence.py",
+      "line": 10,
+      "name": "_keywords_from_scenario",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/workflows/evidence.py",
+      "line": 19,
+      "name": "fetch_evidence_sources",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/workflows/models.py",
+      "line": 1,
+      "name": "workflows/models.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/workflows/models.py",
+      "line": 6,
+      "name": "WorkflowType",
+      "type": "exported-symbol"
+    },
+    {
+      "file": "src/sec_redteam/workflows/models.py",
+      "line": 10,
+      "name": "WorkflowPhase",
+      "type": "data-model"
+    },
+    {
+      "file": "src/sec_redteam/workflows/models.py",
+      "line": 18,
+      "name": "EvidenceSource",
+      "type": "data-model"
+    },
+    {
+      "file": "src/sec_redteam/workflows/models.py",
+      "line": 27,
+      "name": "WorkflowPlan",
+      "type": "data-model"
+    },
+    {
+      "file": "src/sec_redteam/workflows/planner.py",
+      "line": 1,
+      "name": "workflows/planner.py",
+      "type": "module"
+    },
+    {
+      "file": "src/sec_redteam/workflows/planner.py",
+      "line": 6,
+      "name": "_red_phases",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/workflows/planner.py",
+      "line": 51,
+      "name": "_blue_phases",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/workflows/planner.py",
+      "line": 86,
+      "name": "_purple_phases",
+      "type": "function"
+    },
+    {
+      "file": "src/sec_redteam/workflows/planner.py",
+      "line": 121,
+      "name": "build_workflow_plan",
+      "type": "function"
+    }
+  ],
+  "gaps": [
+    {
+      "entity": "aggressive_breadth_queries",
+      "reason": "JSON is outside this graph extractor; filename-only stub and source hash recorded, contents not interpreted.",
+      "referenced_in": "src/sec_redteam/ingest/aggressive_breadth_queries.json:1"
+    },
+    {
+      "entity": "badass_today_queries",
+      "reason": "JSON is outside this graph extractor; filename-only stub and source hash recorded, contents not interpreted.",
+      "referenced_in": "src/sec_redteam/ingest/badass_today_queries.json:1"
+    },
+    {
+      "entity": "argparse",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/cli.py:3"
+    },
+    {
+      "entity": "logging",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/cli.py:4"
+    },
+    {
+      "entity": "pathlib",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/cli.py:5"
+    },
+    {
+      "entity": "compliance_deep_queries",
+      "reason": "JSON is outside this graph extractor; filename-only stub and source hash recorded, contents not interpreted.",
+      "referenced_in": "src/sec_redteam/ingest/compliance_deep_queries.json:1"
+    },
+    {
+      "entity": "compliance_surge_queries",
+      "reason": "JSON is outside this graph extractor; filename-only stub and source hash recorded, contents not interpreted.",
+      "referenced_in": "src/sec_redteam/ingest/compliance_surge_queries.json:1"
+    },
+    {
+      "entity": "default_queries",
+      "reason": "JSON is outside this graph extractor; filename-only stub and source hash recorded, contents not interpreted.",
+      "referenced_in": "src/sec_redteam/ingest/default_queries.json:1"
+    },
+    {
+      "entity": "typing.Protocol",
+      "reason": "Extractor left the Protocol inheritance target unresolved. Import is visible at exa_client.py:5; dependency implementation is outside scope.",
+      "referenced_in": "src/sec_redteam/ingest/exa_client.py:19"
+    },
+    {
+      "entity": "os",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/exa_client.py:3"
+    },
+    {
+      "entity": "self._client.search_and_contents",
+      "reason": "External SDK receiver call is not resolved in the graph; SDK implementation is outside scope.",
+      "referenced_in": "src/sec_redteam/ingest/exa_client.py:33"
+    },
+    {
+      "entity": "dataclasses",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/exa_client.py:4"
+    },
+    {
+      "entity": "typing",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/exa_client.py:5"
+    },
+    {
+      "entity": "dotenv",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/exa_client.py:7"
+    },
+    {
+      "entity": "exa_py",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/exa_client.py:8"
+    },
+    {
+      "entity": "offsec_research_queries",
+      "reason": "JSON is outside this graph extractor; filename-only stub and source hash recorded, contents not interpreted.",
+      "referenced_in": "src/sec_redteam/ingest/offsec_research_queries.json:1"
+    },
+    {
+      "entity": "trafilatura",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/pipeline.py:11"
+    },
+    {
+      "entity": "json",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/pipeline.py:3"
+    },
+    {
+      "entity": "logging",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/pipeline.py:4"
+    },
+    {
+      "entity": "re",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/pipeline.py:5"
+    },
+    {
+      "entity": "time",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/pipeline.py:6"
+    },
+    {
+      "entity": "dataclasses",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/pipeline.py:7"
+    },
+    {
+      "entity": "datetime",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/pipeline.py:8"
+    },
+    {
+      "entity": "client.search_and_contents",
+      "reason": "Receiver-based protocol dispatch is not resolved to an implementation in the extracted graph; no speculative calls edge added.",
+      "referenced_in": "src/sec_redteam/ingest/pipeline.py:86"
+    },
+    {
+      "entity": "pathlib",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/pipeline.py:9"
+    },
+    {
+      "entity": "playbook_surge_queries",
+      "reason": "JSON is outside this graph extractor; filename-only stub and source hash recorded, contents not interpreted.",
+      "referenced_in": "src/sec_redteam/ingest/playbook_surge_queries.json:1"
+    },
+    {
+      "entity": "dataclasses",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/presets.py:3"
+    },
+    {
+      "entity": "pathlib",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/presets.py:4"
+    },
+    {
+      "entity": "sqlite3",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/storage.py:3"
+    },
+    {
+      "entity": "dataclasses",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/storage.py:4"
+    },
+    {
+      "entity": "pathlib",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/storage.py:5"
+    },
+    {
+      "entity": "dataclasses",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/types.py:3"
+    },
+    {
+      "entity": "pathlib",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/types.py:4"
+    },
+    {
+      "entity": "hashlib",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/utils.py:3"
+    },
+    {
+      "entity": "re",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/utils.py:4"
+    },
+    {
+      "entity": "collections.abc",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/utils.py:5"
+    },
+    {
+      "entity": "tldextract",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/ingest/utils.py:7"
+    },
+    {
+      "entity": "argparse",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/workflows/cli.py:3"
+    },
+    {
+      "entity": "json",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/workflows/cli.py:4"
+    },
+    {
+      "entity": "dataclasses",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/workflows/cli.py:5"
+    },
+    {
+      "entity": "pathlib",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/workflows/cli.py:6"
+    },
+    {
+      "entity": "re",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/workflows/evidence.py:3"
+    },
+    {
+      "entity": "sqlite3",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/workflows/evidence.py:4"
+    },
+    {
+      "entity": "pathlib",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/workflows/evidence.py:5"
+    },
+    {
+      "entity": "dataclasses",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/workflows/models.py:3"
+    },
+    {
+      "entity": "typing",
+      "reason": "External module definition is outside src/sec_redteam; preserved as an external endpoint, not a fabricated local page.",
+      "referenced_in": "src/sec_redteam/workflows/models.py:4"
+    }
+  ],
+  "global_reconciliation_authorized": false,
+  "lint_findings": [],
+  "meta_reports_written": [],
+  "mode": "scan-directory",
+  "notification_flags": [],
+  "pages_created": [
+    "library/knowledge/private/codebase-graph/README.md",
+    "library/knowledge/private/codebase-graph/concepts/corpus-filter-and-budget.md",
+    "library/knowledge/private/codebase-graph/concepts/evidence-is-attachment.md",
+    "library/knowledge/private/codebase-graph/concepts/insert-before-export.md",
+    "library/knowledge/private/codebase-graph/entities/__init__-module.md",
+    "library/knowledge/private/codebase-graph/entities/aggressive_breadth_queries.md",
+    "library/knowledge/private/codebase-graph/entities/badass_today_queries.md",
+    "library/knowledge/private/codebase-graph/entities/compliance_deep_queries.md",
+    "library/knowledge/private/codebase-graph/entities/compliance_surge_queries.md",
+    "library/knowledge/private/codebase-graph/entities/default_queries.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-__init__-module.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-cli-DEFAULT-ALLOWED-DOMAINS.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-cli-build-parser.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-cli-main.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-cli-module.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-exa_client-ExaSearchClient.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-exa_client-SearchClient.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-exa_client-SearchResultItem.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-exa_client-module.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-pipeline-ChunkedDocument.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-pipeline-domain-allowed.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-pipeline-extract-best-text.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-pipeline-load-queries.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-pipeline-looks-like-html.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-pipeline-module.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-pipeline-run-ingestion.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-presets-IngestPreset.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-presets-PRESETS.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-presets-module.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-storage-DocumentRecord.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-storage-init-db.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-storage-insert-doc.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-storage-module.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-types-IngestionSettings.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-types-module.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-utils-chunk-text.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-utils-domain-of.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-utils-module.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-utils-normalize-text.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-utils-sha256-text.md",
+    "library/knowledge/private/codebase-graph/entities/ingest-utils-sort-deterministic.md",
+    "library/knowledge/private/codebase-graph/entities/offsec_research_queries.md",
+    "library/knowledge/private/codebase-graph/entities/playbook_surge_queries.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-__init__-module.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-cli-build-parser.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-cli-main.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-cli-module.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-evidence-fetch-evidence-sources.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-evidence-keywords-from-scenario.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-evidence-module.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-models-EvidenceSource.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-models-WorkflowPhase.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-models-WorkflowPlan.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-models-WorkflowType.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-models-module.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-planner-blue-phases.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-planner-build-workflow-plan.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-planner-module.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-planner-purple-phases.md",
+    "library/knowledge/private/codebase-graph/entities/workflows-planner-red-phases.md",
+    "library/knowledge/private/codebase-graph/meta/extraction-receipt.md"
+  ],
+  "pages_updated": [],
+  "partial_scan": true
+}

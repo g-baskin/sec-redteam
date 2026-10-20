@@ -1,0 +1,194 @@
+{
+  "build": {
+    "cache_hits": 0,
+    "files_extracted": 14,
+    "files_skipped": 0,
+    "links": 87,
+    "node_kinds": {
+      "class": 10,
+      "const": 9,
+      "function": 22,
+      "method": 3,
+      "module": 14
+    },
+    "nodes": 58,
+    "parse_warnings": 0,
+    "relations": {
+      "calls": 31,
+      "extends": 1,
+      "imports": 52,
+      "method_of": 3
+    }
+  },
+  "date": "2026-10-19",
+  "excluded": [
+    "__pycache__",
+    "tests",
+    "repository files outside src/sec_redteam",
+    ".env",
+    "data"
+  ],
+  "files": [
+    {
+      "bytes": 49,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/__init__.py",
+      "sha256": "e2dfdcaf386b2ee9befa8ca8c14331b63053cd4b56a7ba114c5db67b012f246e"
+    },
+    {
+      "bytes": 65,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/ingest/__init__.py",
+      "sha256": "cbb92a04e1152f68f9d532f790fe792bdd9f5d49d84c968f25fd31d720a6ccf7"
+    },
+    {
+      "bytes": 2228,
+      "coverage": "filename-only-stub",
+      "path": "src/sec_redteam/ingest/aggressive_breadth_queries.json",
+      "sha256": "e9db89d4e0f1ca6408610b6b21db2cb200333359b23bf970b4ca04d07cea69f5"
+    },
+    {
+      "bytes": 1004,
+      "coverage": "filename-only-stub",
+      "path": "src/sec_redteam/ingest/badass_today_queries.json",
+      "sha256": "5ab36abef6e6fb82771ae45bd1523eb6c864bd80fd36fe928e130fe9f2631a58"
+    },
+    {
+      "bytes": 3023,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/ingest/cli.py",
+      "sha256": "03ee3d1229936d89be6759ef820745ab42b5c2be2df01e8ddd68020d9e0f3ea0"
+    },
+    {
+      "bytes": 781,
+      "coverage": "filename-only-stub",
+      "path": "src/sec_redteam/ingest/compliance_deep_queries.json",
+      "sha256": "3572b4dd0a1a044e414466770e0ace2e315adc4ad671c3110b39cc71cbbc2a9b"
+    },
+    {
+      "bytes": 1137,
+      "coverage": "filename-only-stub",
+      "path": "src/sec_redteam/ingest/compliance_surge_queries.json",
+      "sha256": "fa727a959a92e2ec275083352099979d4b009b7f82fa4195c1a4aa61888ff6b5"
+    },
+    {
+      "bytes": 720,
+      "coverage": "filename-only-stub",
+      "path": "src/sec_redteam/ingest/default_queries.json",
+      "sha256": "f20d781c11e4004afe445cc4549b4a7f88f457f75f7225cdd1fb72ad21822ab5"
+    },
+    {
+      "bytes": 1376,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/ingest/exa_client.py",
+      "sha256": "4f26d6ab53e7222029a9f174942d43751ecb0cab4a7d975da636fe7a5cfa9b37"
+    },
+    {
+      "bytes": 1211,
+      "coverage": "filename-only-stub",
+      "path": "src/sec_redteam/ingest/offsec_research_queries.json",
+      "sha256": "a53e1c72f659a481eac0206ee6ee39f471f817b7584657fc779698868f65f412"
+    },
+    {
+      "bytes": 6465,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/ingest/pipeline.py",
+      "sha256": "21316991acfc59f27394009273c1d0d098a46b3287438e08f4449c982dcf3d36"
+    },
+    {
+      "bytes": 1041,
+      "coverage": "filename-only-stub",
+      "path": "src/sec_redteam/ingest/playbook_surge_queries.json",
+      "sha256": "701f52641c03a86c06196b1272450aba52c826a8a3a343c6f8f0b44a24ed3004"
+    },
+    {
+      "bytes": 2030,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/ingest/presets.py",
+      "sha256": "89b9dba3ba957573c722845bd1d9b3159446d504952b1610ce89317549b38a95"
+    },
+    {
+      "bytes": 1863,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/ingest/storage.py",
+      "sha256": "089fcf6347746f6a38459ee1d2cc592f1c04ce0ad1e4dcbc0b299f2225abff40"
+    },
+    {
+      "bytes": 460,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/ingest/types.py",
+      "sha256": "17774c4f5e553ccca5c104adc22e12f1b78fe524e6f8262c936f22eef54019b5"
+    },
+    {
+      "bytes": 1164,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/ingest/utils.py",
+      "sha256": "6ea669b603c19a64aa39d6c776f9489024c7718c46bc5835d85c90c2b7a3c1f2"
+    },
+    {
+      "bytes": 155,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/workflows/__init__.py",
+      "sha256": "80ad51ed2b49112e651bfca772d4310fe67f9deedbb3f295c6cf9fb6c1e93ce3"
+    },
+    {
+      "bytes": 1434,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/workflows/cli.py",
+      "sha256": "50a9bb2db071634f8dcb3a755982dc9829f0dabf48639b24e6762255303d83a3"
+    },
+    {
+      "bytes": 1630,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/workflows/evidence.py",
+      "sha256": "0417de6ba76a14117429730d895a1f3ae48245a1d99395f04c081e881f45506f"
+    },
+    {
+      "bytes": 670,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/workflows/models.py",
+      "sha256": "9b008492abd884393e214de5d7f777cc129091174fffcf84501eca171f558a82"
+    },
+    {
+      "bytes": 6865,
+      "coverage": "tree-sitter-python",
+      "path": "src/sec_redteam/workflows/planner.py",
+      "sha256": "a9731ee7d69d26a945600466415a5575f3da6cce1dabe0df55e64642fe5d8486"
+    }
+  ],
+  "generator": {
+    "engine": "tree-sitter",
+    "language": "python",
+    "package": "@deeplake/hivemind",
+    "version": "0.7.161"
+  },
+  "graph_sha256": "c7a029bc9a93666d7c35f54365b8698bdb8866357c0352dd2b4ee67045bf705d",
+  "history_review": {
+    "adr_signals": 0,
+    "commits_reviewed": [
+      "1e71d28b23881f5d1c76849003cd144cfe545947"
+    ],
+    "prior_domain_present": false
+  },
+  "local_only": {
+    "auto_docs_registry": "/dev/null",
+    "cloud_outcome": "skipped (HIVEMIND_GRAPH_PUSH=0)",
+    "environment": "env -i; disposable HOME",
+    "global_reconciliation": false,
+    "graph_pull": "0",
+    "graph_push": "0",
+    "network": "sandbox-exec (version 1)(allow default)(deny network*)"
+  },
+  "normalization": [
+    "Removed observation including absolute worktree path, branch and wall-clock timestamp.",
+    "Removed machine-derived repo_key; source HEAD retained only in this receipt and entity provenance.",
+    "Prefixed internal node IDs, source_file fields and unresolved internal paths with src/sec_redteam/.",
+    "Sorted nodes by id, links by source/target/relation/ord, and JSON object keys.",
+    "Preserved extractor confidence labels, fan metrics and entrypoint flags without upgrading their meaning."
+  ],
+  "partial_scan": true,
+  "raw_snapshot_content_sha256": "5dfa28255053e0dff71a56de46ba25516c07edb1d7184dd1fbc29c84e401a516",
+  "scope": "src/sec_redteam",
+  "source_head_sha": "1e71d28b23881f5d1c76849003cd144cfe545947",
+  "source_matches_head": true
+}

@@ -1,0 +1,1276 @@
+{
+  "directed": true,
+  "graph": {
+    "generator": "hivemind-graph",
+    "path_base": "repository-root",
+    "schema_version": 1,
+    "scope": "src/sec_redteam"
+  },
+  "links": [
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/__init__.py::module",
+      "target": "src/sec_redteam/ingest/pipeline.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/cli.py::module",
+      "target": "external:argparse"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/cli.py::module",
+      "target": "external:logging"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/cli.py::module",
+      "target": "external:pathlib"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/cli.py::module",
+      "target": "src/sec_redteam/ingest/exa_client.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/cli.py::module",
+      "target": "src/sec_redteam/ingest/pipeline.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/cli.py::module",
+      "target": "src/sec_redteam/ingest/presets.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/cli.py::module",
+      "target": "src/sec_redteam/ingest/types.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/cli.py:main:function",
+      "target": "src/sec_redteam/ingest/cli.py:build_parser:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/cli.py:main:function",
+      "target": "src/sec_redteam/ingest/exa_client.py:ExaSearchClient:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/cli.py:main:function",
+      "target": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/cli.py:main:function",
+      "target": "src/sec_redteam/ingest/types.py:IngestionSettings:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/exa_client.py::module",
+      "target": "external:dataclasses"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/exa_client.py::module",
+      "target": "external:dotenv"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/exa_client.py::module",
+      "target": "external:exa_py"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/exa_client.py::module",
+      "target": "external:os"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/exa_client.py::module",
+      "target": "external:typing"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/exa_client.py:ExaSearchClient.search_and_contents:method",
+      "target": "src/sec_redteam/ingest/exa_client.py:SearchResultItem:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "method_of",
+      "source": "src/sec_redteam/ingest/exa_client.py:ExaSearchClient:class",
+      "target": "src/sec_redteam/ingest/exa_client.py:ExaSearchClient.__init__:method"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "method_of",
+      "source": "src/sec_redteam/ingest/exa_client.py:ExaSearchClient:class",
+      "target": "src/sec_redteam/ingest/exa_client.py:ExaSearchClient.search_and_contents:method"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "method_of",
+      "source": "src/sec_redteam/ingest/exa_client.py:SearchClient:class",
+      "target": "src/sec_redteam/ingest/exa_client.py:SearchClient.search_and_contents:method"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "extends",
+      "source": "src/sec_redteam/ingest/exa_client.py:SearchClient:class",
+      "target": "unresolved:src/sec_redteam/ingest/exa_client.py:Protocol:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "external:dataclasses"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "external:datetime"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "external:json"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "external:logging"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "external:pathlib"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "external:re"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "external:time"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "external:trafilatura"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "src/sec_redteam/ingest/exa_client.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "src/sec_redteam/ingest/storage.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "src/sec_redteam/ingest/types.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/pipeline.py::module",
+      "target": "src/sec_redteam/ingest/utils.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:_domain_allowed:function",
+      "target": "src/sec_redteam/ingest/utils.py:domain_of:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:_extract_best_text:function",
+      "target": "src/sec_redteam/ingest/pipeline.py:_looks_like_html:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/pipeline.py:ChunkedDocument:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/pipeline.py:_domain_allowed:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/pipeline.py:_extract_best_text:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/pipeline.py:_load_queries:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/storage.py:DocumentRecord:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/storage.py:init_db:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/storage.py:insert_doc:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/utils.py:chunk_text:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/utils.py:domain_of:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/utils.py:normalize_text:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/utils.py:sha256_text:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "target": "src/sec_redteam/ingest/utils.py:sort_deterministic:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/presets.py::module",
+      "target": "external:dataclasses"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/presets.py::module",
+      "target": "external:pathlib"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/storage.py::module",
+      "target": "external:dataclasses"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/storage.py::module",
+      "target": "external:pathlib"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/storage.py::module",
+      "target": "external:sqlite3"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/types.py::module",
+      "target": "external:dataclasses"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/types.py::module",
+      "target": "external:pathlib"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/utils.py::module",
+      "target": "external:collections.abc"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/utils.py::module",
+      "target": "external:hashlib"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/utils.py::module",
+      "target": "external:re"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/ingest/utils.py::module",
+      "target": "external:tldextract"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/__init__.py::module",
+      "target": "src/sec_redteam/workflows/models.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/__init__.py::module",
+      "target": "src/sec_redteam/workflows/planner.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/cli.py::module",
+      "target": "external:argparse"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/cli.py::module",
+      "target": "external:dataclasses"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/cli.py::module",
+      "target": "external:json"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/cli.py::module",
+      "target": "external:pathlib"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/cli.py::module",
+      "target": "src/sec_redteam/workflows/evidence.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/cli.py::module",
+      "target": "src/sec_redteam/workflows/models.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/cli.py::module",
+      "target": "src/sec_redteam/workflows/planner.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/cli.py:main:function",
+      "target": "src/sec_redteam/workflows/cli.py:build_parser:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/cli.py:main:function",
+      "target": "src/sec_redteam/workflows/evidence.py:fetch_evidence_sources:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/cli.py:main:function",
+      "target": "src/sec_redteam/workflows/planner.py:build_workflow_plan:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/evidence.py::module",
+      "target": "external:pathlib"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/evidence.py::module",
+      "target": "external:re"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/evidence.py::module",
+      "target": "external:sqlite3"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/evidence.py::module",
+      "target": "src/sec_redteam/workflows/models.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/evidence.py:fetch_evidence_sources:function",
+      "target": "src/sec_redteam/workflows/evidence.py:_keywords_from_scenario:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/evidence.py:fetch_evidence_sources:function",
+      "target": "src/sec_redteam/workflows/models.py:EvidenceSource:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/models.py::module",
+      "target": "external:dataclasses"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/models.py::module",
+      "target": "external:typing"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "imports",
+      "source": "src/sec_redteam/workflows/planner.py::module",
+      "target": "src/sec_redteam/workflows/models.py::module"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/planner.py:_blue_phases:function",
+      "target": "src/sec_redteam/workflows/models.py:WorkflowPhase:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/planner.py:_purple_phases:function",
+      "target": "src/sec_redteam/workflows/models.py:WorkflowPhase:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/planner.py:_red_phases:function",
+      "target": "src/sec_redteam/workflows/models.py:WorkflowPhase:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/planner.py:build_workflow_plan:function",
+      "target": "src/sec_redteam/workflows/models.py:WorkflowPlan:class"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/planner.py:build_workflow_plan:function",
+      "target": "src/sec_redteam/workflows/planner.py:_blue_phases:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/planner.py:build_workflow_plan:function",
+      "target": "src/sec_redteam/workflows/planner.py:_purple_phases:function"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "source": "src/sec_redteam/workflows/planner.py:build_workflow_plan:function",
+      "target": "src/sec_redteam/workflows/planner.py:_red_phases:function"
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "exported": false,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/__init__.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "__init__.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": false,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/__init__.py:__all__:const",
+      "is_entrypoint": false,
+      "kind": "const",
+      "label": "__all__",
+      "language": "python",
+      "signature": "__all__ = [\"__version__\"]",
+      "source_file": "src/sec_redteam/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": false,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/__init__.py:__version__:const",
+      "is_entrypoint": false,
+      "kind": "const",
+      "label": "__version__",
+      "language": "python",
+      "signature": "__version__ = \"0.1.0\"",
+      "source_file": "src/sec_redteam/__init__.py",
+      "source_location": "L3"
+    },
+    {
+      "exported": false,
+      "fan_in": 0,
+      "fan_out": 1,
+      "id": "src/sec_redteam/ingest/__init__.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "ingest/__init__.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/ingest/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": false,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/__init__.py:__all__:const",
+      "is_entrypoint": false,
+      "kind": "const",
+      "label": "__all__",
+      "language": "python",
+      "signature": "__all__ = [\"run_ingestion\"]",
+      "source_file": "src/sec_redteam/ingest/__init__.py",
+      "source_location": "L3"
+    },
+    {
+      "exported": false,
+      "fan_in": 0,
+      "fan_out": 7,
+      "id": "src/sec_redteam/ingest/cli.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "ingest/cli.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/ingest/cli.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": true,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/cli.py:DEFAULT_ALLOWED_DOMAINS:const",
+      "is_entrypoint": true,
+      "kind": "const",
+      "label": "DEFAULT_ALLOWED_DOMAINS",
+      "language": "python",
+      "signature": "DEFAULT_ALLOWED_DOMAINS = frozenset(",
+      "source_file": "src/sec_redteam/ingest/cli.py",
+      "source_location": "L12-24"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/cli.py:build_parser:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "build_parser",
+      "language": "python",
+      "signature": "def build_parser() -> argparse.ArgumentParser",
+      "source_file": "src/sec_redteam/ingest/cli.py",
+      "source_location": "L27-61"
+    },
+    {
+      "exported": true,
+      "fan_in": 0,
+      "fan_out": 4,
+      "id": "src/sec_redteam/ingest/cli.py:main:function",
+      "is_entrypoint": true,
+      "kind": "function",
+      "label": "main",
+      "language": "python",
+      "signature": "def main() -> None",
+      "source_file": "src/sec_redteam/ingest/cli.py",
+      "source_location": "L64-88"
+    },
+    {
+      "exported": false,
+      "fan_in": 2,
+      "fan_out": 5,
+      "id": "src/sec_redteam/ingest/exa_client.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "ingest/exa_client.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/ingest/exa_client.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/exa_client.py:ExaSearchClient.__init__:method",
+      "is_entrypoint": false,
+      "kind": "method",
+      "label": "__init__",
+      "language": "python",
+      "signature": "def __init__(self, api_key: str | None = None) -> None",
+      "source_file": "src/sec_redteam/ingest/exa_client.py",
+      "source_location": "L25-30"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 1,
+      "id": "src/sec_redteam/ingest/exa_client.py:ExaSearchClient.search_and_contents:method",
+      "is_entrypoint": false,
+      "kind": "method",
+      "label": "search_and_contents",
+      "language": "python",
+      "signature": "def search_and_contents(self, query: str, num_results: int) -> list[SearchResultItem]",
+      "source_file": "src/sec_redteam/ingest/exa_client.py",
+      "source_location": "L32-46"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 2,
+      "id": "src/sec_redteam/ingest/exa_client.py:ExaSearchClient:class",
+      "is_entrypoint": false,
+      "kind": "class",
+      "label": "ExaSearchClient",
+      "language": "python",
+      "signature": "class ExaSearchClient",
+      "source_file": "src/sec_redteam/ingest/exa_client.py",
+      "source_location": "L24-46"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/exa_client.py:SearchClient.search_and_contents:method",
+      "is_entrypoint": false,
+      "kind": "method",
+      "label": "search_and_contents",
+      "language": "python",
+      "signature": "def search_and_contents(self, query: str, num_results: int) -> list[SearchResultItem]",
+      "source_file": "src/sec_redteam/ingest/exa_client.py",
+      "source_location": "L20-21"
+    },
+    {
+      "exported": true,
+      "fan_in": 0,
+      "fan_out": 2,
+      "id": "src/sec_redteam/ingest/exa_client.py:SearchClient:class",
+      "is_entrypoint": true,
+      "kind": "class",
+      "label": "SearchClient",
+      "language": "python",
+      "signature": "class SearchClient(Protocol)",
+      "source_file": "src/sec_redteam/ingest/exa_client.py",
+      "source_location": "L19-21"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/exa_client.py:SearchResultItem:class",
+      "is_entrypoint": false,
+      "kind": "class",
+      "label": "SearchResultItem",
+      "language": "python",
+      "signature": "class SearchResultItem",
+      "source_file": "src/sec_redteam/ingest/exa_client.py",
+      "source_location": "L12-16"
+    },
+    {
+      "exported": false,
+      "fan_in": 2,
+      "fan_out": 12,
+      "id": "src/sec_redteam/ingest/pipeline.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "ingest/pipeline.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/ingest/pipeline.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/pipeline.py:ChunkedDocument:class",
+      "is_entrypoint": false,
+      "kind": "class",
+      "label": "ChunkedDocument",
+      "language": "python",
+      "signature": "class ChunkedDocument",
+      "source_file": "src/sec_redteam/ingest/pipeline.py",
+      "source_location": "L22-32"
+    },
+    {
+      "exported": true,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/pipeline.py:HTML_MARKER_PATTERN:const",
+      "is_entrypoint": true,
+      "kind": "const",
+      "label": "HTML_MARKER_PATTERN",
+      "language": "python",
+      "signature": "HTML_MARKER_PATTERN = re.compile(r\"<\\s*(?:html|body|article|div|p|h1|h2|h3|section|main)\\b\", re.IGNORECASE)",
+      "source_file": "src/sec_redteam/ingest/pipeline.py",
+      "source_location": "L35"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 1,
+      "id": "src/sec_redteam/ingest/pipeline.py:_domain_allowed:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "_domain_allowed",
+      "language": "python",
+      "signature": "def _domain_allowed(url: str, allowed_domains: frozenset[str]) -> bool",
+      "source_file": "src/sec_redteam/ingest/pipeline.py",
+      "source_location": "L64-67"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 1,
+      "id": "src/sec_redteam/ingest/pipeline.py:_extract_best_text:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "_extract_best_text",
+      "language": "python",
+      "signature": "def _extract_best_text(raw_text: str) -> str",
+      "source_file": "src/sec_redteam/ingest/pipeline.py",
+      "source_location": "L44-51"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/pipeline.py:_load_queries:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "_load_queries",
+      "language": "python",
+      "signature": "def _load_queries(config_path: Path) -> dict[str, list[str]]",
+      "source_file": "src/sec_redteam/ingest/pipeline.py",
+      "source_location": "L54-61"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/pipeline.py:_looks_like_html:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "_looks_like_html",
+      "language": "python",
+      "signature": "def _looks_like_html(text: str) -> bool",
+      "source_file": "src/sec_redteam/ingest/pipeline.py",
+      "source_location": "L38-41"
+    },
+    {
+      "exported": true,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/pipeline.py:logger:const",
+      "is_entrypoint": true,
+      "kind": "const",
+      "label": "logger",
+      "language": "python",
+      "signature": "logger = logging.getLogger(__name__)",
+      "source_file": "src/sec_redteam/ingest/pipeline.py",
+      "source_location": "L18"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 12,
+      "id": "src/sec_redteam/ingest/pipeline.py:run_ingestion:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "run_ingestion",
+      "language": "python",
+      "signature": "def run_ingestion(settings: IngestionSettings, client: SearchClient) -> int",
+      "source_file": "src/sec_redteam/ingest/pipeline.py",
+      "source_location": "L70-181"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 2,
+      "id": "src/sec_redteam/ingest/presets.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "ingest/presets.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/ingest/presets.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": true,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/presets.py:IngestPreset:class",
+      "is_entrypoint": true,
+      "kind": "class",
+      "label": "IngestPreset",
+      "language": "python",
+      "signature": "class IngestPreset",
+      "source_file": "src/sec_redteam/ingest/presets.py",
+      "source_location": "L8-12"
+    },
+    {
+      "exported": true,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/presets.py:PRESETS:const",
+      "is_entrypoint": true,
+      "kind": "const",
+      "label": "PRESETS",
+      "language": "python",
+      "signature": "PRESETS: dict[str, IngestPreset] = {",
+      "source_file": "src/sec_redteam/ingest/presets.py",
+      "source_location": "L15-64"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 3,
+      "id": "src/sec_redteam/ingest/storage.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "ingest/storage.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/ingest/storage.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/storage.py:DocumentRecord:class",
+      "is_entrypoint": false,
+      "kind": "class",
+      "label": "DocumentRecord",
+      "language": "python",
+      "signature": "class DocumentRecord",
+      "source_file": "src/sec_redteam/ingest/storage.py",
+      "source_location": "L9-20"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/storage.py:init_db:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "init_db",
+      "language": "python",
+      "signature": "def init_db(path: Path) -> sqlite3.Connection",
+      "source_file": "src/sec_redteam/ingest/storage.py",
+      "source_location": "L23-46"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/storage.py:insert_doc:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "insert_doc",
+      "language": "python",
+      "signature": "def insert_doc(conn: sqlite3.Connection, record: DocumentRecord) -> bool",
+      "source_file": "src/sec_redteam/ingest/storage.py",
+      "source_location": "L49-75"
+    },
+    {
+      "exported": false,
+      "fan_in": 2,
+      "fan_out": 2,
+      "id": "src/sec_redteam/ingest/types.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "ingest/types.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/ingest/types.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/types.py:IngestionSettings:class",
+      "is_entrypoint": false,
+      "kind": "class",
+      "label": "IngestionSettings",
+      "language": "python",
+      "signature": "class IngestionSettings",
+      "source_file": "src/sec_redteam/ingest/types.py",
+      "source_location": "L8-19"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 4,
+      "id": "src/sec_redteam/ingest/utils.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "ingest/utils.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/ingest/utils.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/utils.py:chunk_text:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "chunk_text",
+      "language": "python",
+      "signature": "def chunk_text(text: str, *, chunk_size: int, chunk_overlap: int) -> list[str]",
+      "source_file": "src/sec_redteam/ingest/utils.py",
+      "source_location": "L25-41"
+    },
+    {
+      "exported": true,
+      "fan_in": 2,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/utils.py:domain_of:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "domain_of",
+      "language": "python",
+      "signature": "def domain_of(url: str) -> str",
+      "source_file": "src/sec_redteam/ingest/utils.py",
+      "source_location": "L10-13"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/utils.py:normalize_text:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "normalize_text",
+      "language": "python",
+      "signature": "def normalize_text(text: str) -> str",
+      "source_file": "src/sec_redteam/ingest/utils.py",
+      "source_location": "L16-18"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/utils.py:sha256_text:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "sha256_text",
+      "language": "python",
+      "signature": "def sha256_text(text: str) -> str",
+      "source_file": "src/sec_redteam/ingest/utils.py",
+      "source_location": "L21-22"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/ingest/utils.py:sort_deterministic:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "sort_deterministic",
+      "language": "python",
+      "signature": "def sort_deterministic(values: Iterable[str]) -> list[str]",
+      "source_file": "src/sec_redteam/ingest/utils.py",
+      "source_location": "L44-45"
+    },
+    {
+      "exported": false,
+      "fan_in": 0,
+      "fan_out": 2,
+      "id": "src/sec_redteam/workflows/__init__.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "workflows/__init__.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/workflows/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": false,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/workflows/__init__.py:__all__:const",
+      "is_entrypoint": false,
+      "kind": "const",
+      "label": "__all__",
+      "language": "python",
+      "signature": "__all__ = [\"WorkflowPlan\", \"WorkflowType\", \"build_workflow_plan\"]",
+      "source_file": "src/sec_redteam/workflows/__init__.py",
+      "source_location": "L4"
+    },
+    {
+      "exported": false,
+      "fan_in": 0,
+      "fan_out": 7,
+      "id": "src/sec_redteam/workflows/cli.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "workflows/cli.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/workflows/cli.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/workflows/cli.py:build_parser:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "build_parser",
+      "language": "python",
+      "signature": "def build_parser() -> argparse.ArgumentParser",
+      "source_file": "src/sec_redteam/workflows/cli.py",
+      "source_location": "L13-20"
+    },
+    {
+      "exported": true,
+      "fan_in": 0,
+      "fan_out": 3,
+      "id": "src/sec_redteam/workflows/cli.py:main:function",
+      "is_entrypoint": true,
+      "kind": "function",
+      "label": "main",
+      "language": "python",
+      "signature": "def main() -> None",
+      "source_file": "src/sec_redteam/workflows/cli.py",
+      "source_location": "L23-38"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 4,
+      "id": "src/sec_redteam/workflows/evidence.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "workflows/evidence.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/workflows/evidence.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/workflows/evidence.py:_keywords_from_scenario:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "_keywords_from_scenario",
+      "language": "python",
+      "signature": "def _keywords_from_scenario(scenario: str) -> list[str]",
+      "source_file": "src/sec_redteam/workflows/evidence.py",
+      "source_location": "L10-16"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 2,
+      "id": "src/sec_redteam/workflows/evidence.py:fetch_evidence_sources:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "fetch_evidence_sources",
+      "language": "python",
+      "signature": "def fetch_evidence_sources(db_path: Path, scenario: str, workflow_type: str, limit: int = 10) -> list[EvidenceSource]",
+      "source_file": "src/sec_redteam/workflows/evidence.py",
+      "source_location": "L19-61"
+    },
+    {
+      "exported": false,
+      "fan_in": 4,
+      "fan_out": 2,
+      "id": "src/sec_redteam/workflows/models.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "workflows/models.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/workflows/models.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/workflows/models.py:EvidenceSource:class",
+      "is_entrypoint": false,
+      "kind": "class",
+      "label": "EvidenceSource",
+      "language": "python",
+      "signature": "class EvidenceSource",
+      "source_file": "src/sec_redteam/workflows/models.py",
+      "source_location": "L18-23"
+    },
+    {
+      "exported": true,
+      "fan_in": 3,
+      "fan_out": 0,
+      "id": "src/sec_redteam/workflows/models.py:WorkflowPhase:class",
+      "is_entrypoint": false,
+      "kind": "class",
+      "label": "WorkflowPhase",
+      "language": "python",
+      "signature": "class WorkflowPhase",
+      "source_file": "src/sec_redteam/workflows/models.py",
+      "source_location": "L10-14"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 0,
+      "id": "src/sec_redteam/workflows/models.py:WorkflowPlan:class",
+      "is_entrypoint": false,
+      "kind": "class",
+      "label": "WorkflowPlan",
+      "language": "python",
+      "signature": "class WorkflowPlan",
+      "source_file": "src/sec_redteam/workflows/models.py",
+      "source_location": "L27-34"
+    },
+    {
+      "exported": true,
+      "fan_in": 0,
+      "fan_out": 0,
+      "id": "src/sec_redteam/workflows/models.py:WorkflowType:const",
+      "is_entrypoint": true,
+      "kind": "const",
+      "label": "WorkflowType",
+      "language": "python",
+      "signature": "WorkflowType = Literal[\"red\", \"blue\", \"purple\"]",
+      "source_file": "src/sec_redteam/workflows/models.py",
+      "source_location": "L6"
+    },
+    {
+      "exported": false,
+      "fan_in": 2,
+      "fan_out": 1,
+      "id": "src/sec_redteam/workflows/planner.py::module",
+      "is_entrypoint": false,
+      "kind": "module",
+      "label": "workflows/planner.py",
+      "language": "python",
+      "source_file": "src/sec_redteam/workflows/planner.py",
+      "source_location": "L1"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 1,
+      "id": "src/sec_redteam/workflows/planner.py:_blue_phases:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "_blue_phases",
+      "language": "python",
+      "signature": "def _blue_phases(scenario: str) -> list[WorkflowPhase]",
+      "source_file": "src/sec_redteam/workflows/planner.py",
+      "source_location": "L51-83"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 1,
+      "id": "src/sec_redteam/workflows/planner.py:_purple_phases:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "_purple_phases",
+      "language": "python",
+      "signature": "def _purple_phases(scenario: str) -> list[WorkflowPhase]",
+      "source_file": "src/sec_redteam/workflows/planner.py",
+      "source_location": "L86-118"
+    },
+    {
+      "exported": false,
+      "fan_in": 1,
+      "fan_out": 1,
+      "id": "src/sec_redteam/workflows/planner.py:_red_phases:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "_red_phases",
+      "language": "python",
+      "signature": "def _red_phases(scenario: str) -> list[WorkflowPhase]",
+      "source_file": "src/sec_redteam/workflows/planner.py",
+      "source_location": "L6-48"
+    },
+    {
+      "exported": true,
+      "fan_in": 1,
+      "fan_out": 4,
+      "id": "src/sec_redteam/workflows/planner.py:build_workflow_plan:function",
+      "is_entrypoint": false,
+      "kind": "function",
+      "label": "build_workflow_plan",
+      "language": "python",
+      "signature": "def build_workflow_plan(",
+      "source_file": "src/sec_redteam/workflows/planner.py",
+      "source_location": "L121-172"
+    }
+  ]
+}

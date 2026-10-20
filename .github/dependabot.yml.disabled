@@ -1,0 +1,9 @@
+# INACTIVE: no dependency-update automation is enabled by this file.
+# Revisit alongside CI after billing is resolved; rename only with owner approval.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
