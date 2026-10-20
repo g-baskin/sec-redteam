@@ -24,7 +24,7 @@ No Node version file or JS hook tooling was added: the implemented application i
 | `.env.example` | Only app-specific environment variable read by the Exa adapter: `EXA_API_KEY`; deliberately fake value, never copied from `.env`. |
 | `.github/CODEOWNERS` | GitHub API confirms this repository belongs to the user `g-baskin`; all paths and governance paths assigned to that owner. |
 | `.github/ISSUE_TEMPLATE/*.md`, `.github/PULL_REQUEST_TEMPLATE.md` | Python CLI terminology, local test evidence and no-secret instructions. |
-| `.github/README.md` | Explicit inactive automation policy and future activation requirements. |
+| `.github/AUTOMATION.md` (originally `.github/README.md`) | Explicit inactive automation policy and future activation requirements. Renamed so GitHub displays the root README instead of these notes. |
 | `.github/workflows/ci.yml.disabled` | Existing pytest command; Python 3.12; official action SHAs verified via GitHub API. Inactive file suffix, manual-only trigger if later activated, read-only token and no persisted checkout credentials. |
 | `.github/dependabot.yml.disabled` | Python `pip` ecosystem; inactive rather than enabling unattended dependency automation during the billing pause. |
 | `CONTRIBUTING.md` | Current setup, tests, repository feature-worktree/approval workflow, and actual missing lint/type commands. |

@@ -27,7 +27,7 @@ Before a feature merge, run applicable tests, lint/types/build and acceptance ch
 
 Use the [PR template](.github/PULL_REQUEST_TEMPLATE.md), keep changes focused, and report the commands actually run. Add a small regression test for a bug fix and update source-cited docs when behavior changes. Run `python -m pytest` in the activated development environment and `git diff --check`.
 
-**CI is inactive due to billing.** The `.disabled` workflow and Dependabot templates must stay inactive until separately approved. Local checks are required evidence, not a substitute for review or a claim of hosted CI coverage. See [automation notes](.github/README.md).
+**CI is inactive due to billing.** The `.disabled` workflow and Dependabot templates must stay inactive until separately approved. Local checks are required evidence, not a substitute for review or a claim of hosted CI coverage. See [automation notes](.github/AUTOMATION.md).
 
 Code-owner review is requested through [CODEOWNERS](.github/CODEOWNERS) once published; enforcement needs a repository rule. Do not imply that a local file alone protects a branch.
 
