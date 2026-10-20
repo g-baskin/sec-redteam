@@ -1,0 +1,32 @@
+{
+  "soc2": [
+    "SOC 2 trust services criteria security availability confidentiality privacy",
+    "AICPA SOC 2 points of focus control activities",
+    "SOC 2 logging monitoring evidence collection"
+  ],
+  "hipaa": [
+    "HIPAA Security Rule administrative physical technical safeguards",
+    "HHS OCR HIPAA guidance risk analysis",
+    "HIPAA breach notification rule incident response"
+  ],
+  "pci-dss": [
+    "PCI DSS 4.0 requirements and testing procedures official",
+    "PCI DSS requirement 10 logging monitoring",
+    "PCI DSS requirement 12 incident response"
+  ],
+  "iso-and-governance": [
+    "ISO 27001 Annex A controls implementation guidance",
+    "ISO 27002 control set practical implementation",
+    "cybersecurity control mapping NIST ISO SOC2 PCI HIPAA"
+  ],
+  "nist-controls": [
+    "NIST SP 800-53 Rev 5 control families",
+    "NIST SP 800-171 requirements and assessment",
+    "NIST CSF 2.0 govern identify protect detect respond recover"
+  ],
+  "sector-specific": [
+    "HHS HC3 healthcare cybersecurity advisories",
+    "FFIEC CAT cyber risk controls",
+    "CISA ICS advisories industrial control systems"
+  ]
+}

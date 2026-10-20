@@ -1,0 +1,27 @@
+{
+  "attack-and-detection": [
+    "site:attack.mitre.org T1059 Command and Scripting Interpreter",
+    "MITRE ATT&CK lateral movement detection engineering",
+    "CISA known exploited vulnerabilities KEV catalog"
+  ],
+  "soc-and-ir": [
+    "incident response runbook ransomware triage containment",
+    "threat hunting hypothesis examples windows event logs",
+    "NIST incident response lifecycle 800-61"
+  ],
+  "sigma-and-rules": [
+    "site:github.com SigmaHQ sigma rules",
+    "site:github.com detection engineering splunk sentinel kql rules",
+    "site:github.com yara malware detection rules"
+  ],
+  "cloud-and-identity": [
+    "AWS IAM privilege escalation detection",
+    "Microsoft Entra ID identity threat detection guidance",
+    "Kubernetes audit log detection suspicious activity"
+  ],
+  "offensive-knowledge": [
+    "LOLBAS project living off the land binaries",
+    "Active Directory attack paths kerberoasting detection",
+    "web application penetration testing methodology OWASP"
+  ]
+}

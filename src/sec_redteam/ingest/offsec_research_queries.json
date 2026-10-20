@@ -1,0 +1,32 @@
+{
+  "adversary-tradecraft": [
+    "MITRE ATT&CK enterprise techniques credential access discovery lateral movement",
+    "MITRE ATT&CK data sources for detection engineering",
+    "threat emulation plan ATT&CK mapped"
+  ],
+  "github-detections-and-hunting": [
+    "site:github.com SigmaHQ sigma detection rules",
+    "site:github.com threat hunting queries kql splunk",
+    "site:github.com yara rules malware families"
+  ],
+  "incident-response-and-playbooks": [
+    "incident response playbook phishing ransomware containment",
+    "DFIR triage checklist windows linux cloud",
+    "NIST SP 800-61 incident handling recommendations"
+  ],
+  "vuln-and-exposure-intel": [
+    "CISA KEV catalog known exploited vulnerabilities",
+    "NVD CVE analysis exploitation in the wild",
+    "EPSS vulnerability prioritization model"
+  ],
+  "cloud-and-identity-threats": [
+    "AWS privilege escalation attack paths detection",
+    "Azure Entra ID attack techniques detection",
+    "Kubernetes attack matrix and detections"
+  ],
+  "defensive-offsec-learning": [
+    "OWASP Web Security Testing Guide",
+    "authorized penetration testing methodology legal scope",
+    "purple team adversary simulation best practices"
+  ]
+}

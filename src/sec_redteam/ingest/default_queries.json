@@ -1,0 +1,22 @@
+{
+  "threat-intel": [
+    "MITRE ATT&CK techniques detection engineering",
+    "threat hunting playbook windows linux cloud",
+    "malware analysis static dynamic reverse engineering"
+  ],
+  "appsec": [
+    "OWASP ASVS secure coding checklist",
+    "software supply chain security SLSA SBOM",
+    "API security testing broken object level authorization"
+  ],
+  "cloud-sec": [
+    "AWS security best practices IAM least privilege",
+    "Kubernetes runtime security admission controller",
+    "cloud incident response runbook"
+  ],
+  "github-heavy": [
+    "site:github.com incident response playbook markdown",
+    "site:github.com detection rules sigma",
+    "site:github.com security architecture decision record"
+  ]
+}

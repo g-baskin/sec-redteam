@@ -1,0 +1,32 @@
+{
+  "red-playbooks": [
+    "adversary emulation playbook ATT&CK",
+    "red team operation runbook authorized testing",
+    "threat emulation scenario playbook"
+  ],
+  "blue-playbooks": [
+    "SOC analyst triage playbook",
+    "incident response runbook phishing ransomware",
+    "detection engineering playbook SIEM EDR"
+  ],
+  "purple-playbooks": [
+    "purple team exercise playbook",
+    "adversary simulation validation runbook",
+    "tabletop exercise playbook cybersecurity"
+  ],
+  "compliance-playbooks": [
+    "SOC 2 incident response playbook",
+    "HIPAA security incident response procedures",
+    "PCI DSS incident response runbook requirement 12"
+  ],
+  "cloud-identity-playbooks": [
+    "AWS incident response playbook IAM compromise",
+    "Microsoft incident response playbook identity compromise",
+    "cloud security runbook account takeover"
+  ],
+  "sector-playbooks": [
+    "healthcare cybersecurity incident response playbook",
+    "financial services cyber incident playbook",
+    "ICS incident response playbook"
+  ]
+}

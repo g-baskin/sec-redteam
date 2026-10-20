@@ -1,0 +1,62 @@
+{
+  "adversary-tradecraft": [
+    "MITRE ATT&CK enterprise techniques credential access discovery lateral movement",
+    "threat emulation ATT&CK mapped campaigns",
+    "CISA known exploited vulnerabilities KEV catalog"
+  ],
+  "detections-and-hunting": [
+    "site:github.com SigmaHQ sigma detection rules",
+    "threat hunting queries kql splunk elastic",
+    "YARA malware detection rules curated"
+  ],
+  "incident-response-dfir": [
+    "NIST SP 800-61 incident response",
+    "DFIR triage checklist enterprise",
+    "ransomware incident response playbook"
+  ],
+  "cloud-identity-saas": [
+    "AWS privilege escalation detection guidance",
+    "Microsoft Entra identity attack detection",
+    "Okta identity threat detection best practices"
+  ],
+  "vuln-risk-prioritization": [
+    "NVD CVE analysis exploitation in the wild",
+    "FIRST EPSS vulnerability prioritization",
+    "CISA vulnerability remediation guidance"
+  ],
+  "nist-controls": [
+    "NIST Cybersecurity Framework 2.0 implementation guidance",
+    "NIST SP 800-53 security and privacy controls",
+    "NIST SP 800-171 protect controlled unclassified information"
+  ],
+  "soc2": [
+    "SOC 2 trust services criteria security availability confidentiality",
+    "AICPA SOC 2 control mapping examples",
+    "SOC 2 continuous monitoring detection logging evidence"
+  ],
+  "hipaa": [
+    "HIPAA Security Rule technical safeguards guidance",
+    "HHS HIPAA breach notification rule",
+    "HIPAA risk analysis and risk management requirements"
+  ],
+  "pci-dss": [
+    "PCI DSS 4.0 requirements and testing procedures",
+    "PCI DSS logging monitoring requirement 10 guidance",
+    "PCI DSS incident response requirement 12"
+  ],
+  "iso-and-governance": [
+    "ISO 27001 control implementation guidance",
+    "ISO 27002 security controls reference",
+    "GRC cyber risk register and control mapping"
+  ],
+  "threat-intel-feeds": [
+    "CISA advisories alerts and analysis",
+    "ENISA threat landscape reports",
+    "vendor threat intelligence reports ransomware"
+  ],
+  "sector-specific": [
+    "healthcare cybersecurity guidance HHS HC3",
+    "financial services cybersecurity framework FFIEC",
+    "industrial control systems cybersecurity CISA ICS advisories"
+  ]
+}

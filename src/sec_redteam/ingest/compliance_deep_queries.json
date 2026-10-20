@@ -1,0 +1,22 @@
+{
+  "soc2": [
+    "site:aicpa-cima.com SOC 2 trust services criteria",
+    "site:aicpa.org SOC for Service Organizations criteria",
+    "site:cloudsecurityalliance.org SOC 2 control guidance"
+  ],
+  "hipaa": [
+    "site:hhs.gov HIPAA Security Rule guidance",
+    "site:hhs.gov HIPAA breach notification rule",
+    "site:ocrportal.hhs.gov HIPAA risk analysis"
+  ],
+  "pci-dss": [
+    "site:pcisecuritystandards.org PCI DSS v4.0 requirements",
+    "site:pcisecuritystandards.org PCI DSS guidance logging monitoring",
+    "site:pcisecuritystandards.org PCI DSS incident response"
+  ],
+  "iso-and-governance": [
+    "site:iso.org ISO/IEC 27001 information security management",
+    "site:iso.org ISO/IEC 27002 security controls",
+    "ISO 27001 implementation guidance official"
+  ]
+}

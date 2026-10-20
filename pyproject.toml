@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sec-redteam"
+version = "0.1.0"
+description = "Cybersecurity knowledge ingestion pipeline using Exa"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+dependencies = [
+  "exa-py>=1.0.8",
+  "trafilatura>=1.9.0",
+  "tldextract>=5.1.2",
+  "python-dateutil>=2.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2.0",
+]
+
+[project.scripts]
+sec-redteam-ingest = "sec_redteam.ingest.cli:main"
+sec-redteam-workflow = "sec_redteam.workflows.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
