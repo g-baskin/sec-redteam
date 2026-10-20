@@ -1,10 +1,17 @@
 # sec-redteam
 
+![SEC-REDTEAM: Research. Plan. Defend. A futuristic armored raven surrounded by red, blue, and purple holographic evidence displays.](assets/sec-redteam-readme.png)
+
 An open-source security testing workbench for applications you own or are authorized to assess.
 
 **Current baseline:** Python corpus ingestion and red/blue/purple workflow planning. The web interface and scanner orchestration are under development, not available in this baseline. Existing commands below are preserved.
 
 Planned stack: React + TypeScript + Vite, FastAPI, PostgreSQL, Celery/RabbitMQ, and isolated Linux scanner workers. The first integration is ZAP. This project does not bundle Burp, Nmap, Kali, or password/wireless tools.
+
+## Artwork
+
+- [README banner](assets/sec-redteam-readme.png)
+- [Square skill image](assets/sec-redteam-skill.png)
 
 ## License
 
